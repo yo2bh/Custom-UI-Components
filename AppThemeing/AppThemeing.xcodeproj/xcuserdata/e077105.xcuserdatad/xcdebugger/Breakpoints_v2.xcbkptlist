@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppThemeing/ViewController.swift"
+            timestampString = "556778176.7363909"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "configureUI()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppThemeing.ViewController.configureUI() -&gt; ()"
+                  moduleName = "AppThemeing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e077105/Documents/iOS%20Demos/POCs/Basic_Components/AppThemeing/AppThemeing/ViewController.swift"
+                  timestampString = "556525084.268947"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1219">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppThemeing.ViewController.configureUI() -&gt; ()"
+                  moduleName = "AppThemeing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/e077105/Documents/iOS%20Demos/POCs/Basic_Components/AppThemeing/AppThemeing/ViewController.swift"
+                  timestampString = "556525084.273495"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "2219">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

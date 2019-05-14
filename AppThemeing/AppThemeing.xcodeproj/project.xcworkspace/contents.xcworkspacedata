@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:blue@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:blue@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:green@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:green@3x.png">
+   </FileRef>
+   <FileRef
+      location = "group:red@2x.png">
+   </FileRef>
+   <FileRef
+      location = "group:red@3x.png">
+   </FileRef>
+   <FileRef
+      location = "self:AppThemeing.xcodeproj">
+   </FileRef>
+</Workspace>

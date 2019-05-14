@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Text</key>
+	<dict>
+		<key>headerText</key>
+		<string>Green Theme Example</string>
+	</dict>
+	<key>Images</key>
+	<dict>
+		<key>buttonImage</key>
+		<string>greenOKButton</string>
+	</dict>
+	<key>Color</key>
+	<dict>
+		<key>navigationBar</key>
+		<string>900001</string>
+		<key>background</key>
+		<string>65280</string>
+		<key>okButton</key>
+		<string>890989</string>
+	</dict>
+</dict>
+</plist>
