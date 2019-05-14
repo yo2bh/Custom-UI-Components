@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fbB-16-chl">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fbB-16-chl">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of birth" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EzB-NO-1Aw">
-                                <rect key="frame" x="20" y="94" width="335" height="30"/>
+                            <textField opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date of birth (Allow past date only)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EzB-NO-1Aw">
+                                <rect key="frame" x="20" y="104" width="335" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -27,8 +27,8 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="xLW-Li-d0z"/>
                                 </connections>
                             </textField>
-                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Licence expiry date" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wgs-du-xJL">
-                                <rect key="frame" x="20" y="164" width="335" height="30"/>
+                            <textField opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Licence expiry date(Allow future date only)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Wgs-du-xJL">
+                                <rect key="frame" x="20" y="174" width="335" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -37,7 +37,7 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHq-OH-ucP">
-                                <rect key="frame" x="185.5" y="357" width="4" height="18"/>
+                                <rect key="frame" x="185.5" y="356.5" width="4" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +50,7 @@
                             <constraint firstItem="oHq-OH-ucP" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="UPm-Us-IEm"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EzB-NO-1Aw" secondAttribute="trailing" constant="20" id="glF-oG-02b"/>
                             <constraint firstItem="Wgs-du-xJL" firstAttribute="trailing" secondItem="EzB-NO-1Aw" secondAttribute="trailing" id="kdl-g2-tQG"/>
-                            <constraint firstItem="EzB-NO-1Aw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="qQw-4R-4RV"/>
+                            <constraint firstItem="EzB-NO-1Aw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="qQw-4R-4RV"/>
                             <constraint firstItem="EzB-NO-1Aw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="u4R-bF-fOs"/>
                             <constraint firstItem="Wgs-du-xJL" firstAttribute="top" secondItem="EzB-NO-1Aw" secondAttribute="bottom" constant="40" id="v5t-7f-p9O"/>
                         </constraints>
