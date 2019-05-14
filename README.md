@@ -3,10 +3,10 @@ This repo includes the custom UI components for iOS using UIKit, Cocoa Touch fra
 
 1. **Alert View**
 
-2. **Custom App Setting
+2. **Custom App Setting**
 
-3. **Custom date picker view
+3. **Custom date picker view**
 
-4. **Custom text field
+4. **Custom text field**
 
 
