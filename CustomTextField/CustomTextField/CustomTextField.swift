@@ -90,7 +90,7 @@ class CustomTextField: UITextField {
   }
   
   fileprivate func setup() {
-    borderStyle = UITextBorderStyle.none
+    borderStyle = UITextField.BorderStyle.none
     // Set up title label
     title.textColor = UIColor.gray.withAlphaComponent(0.38)
     title.alpha = 0.0
@@ -112,7 +112,7 @@ extension CustomTextField {
   
   private func showTitle(_ animated: Bool) {
     let dur = animated ? showAnimDuration : 0
-    UIView.animate(withDuration: dur, delay: 0, options: [UIViewAnimationOptions.beginFromCurrentState, UIViewAnimationOptions.curveEaseOut], animations: {
+    UIView.animate(withDuration: dur, delay: 0, options: [UIView.AnimationOptions.beginFromCurrentState, UIView.AnimationOptions.curveEaseOut], animations: {
       // Animation
       self.title.alpha = 1.0
       var frame = self.title.frame
@@ -147,7 +147,7 @@ extension CustomTextField {
   
   private func hideTitle(animated: Bool) {
     let dur = animated ? hideAnimDuration : 0
-    UIView.animate(withDuration: dur, delay: 0, options: [UIViewAnimationOptions.beginFromCurrentState, UIViewAnimationOptions.curveEaseIn], animations: {
+    UIView.animate(withDuration: dur, delay: 0, options: [UIView.AnimationOptions.beginFromCurrentState, UIView.AnimationOptions.curveEaseIn], animations: {
       // Animation
       var frame = self.title.frame
       frame.origin.y = self.title.font.lineHeight

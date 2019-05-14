@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   var window: UIWindow?
 
 
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     setUpAppIcon()
     
     return true
@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   func changeIcon(_ icon: String = "blue") {
     UIApplication.shared.setAlternateIconName(icon) { error in
-      print(error?.localizedDescription)
+        print(error?.localizedDescription as Any)
     }
   }
   

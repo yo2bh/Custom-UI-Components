@@ -19,7 +19,6 @@ class ViewController: UIViewController {
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
     textField.placeholder = "Hello User"
-    textField.text = "Ajaya"
 //    textField.isEnabled = false
   }
 

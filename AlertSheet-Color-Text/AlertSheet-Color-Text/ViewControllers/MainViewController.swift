@@ -39,7 +39,7 @@ class MainViewController: UIViewController {
     customFontAlert()
   }
   
-  func showAlert(_ preferredStyle: UIAlertControllerStyle = UIAlertControllerStyle.alert) {
+    func showAlert(_ preferredStyle: UIAlertController.Style = UIAlertController.Style.alert) {
     let alertView = UIAlertController(title: "", message: "Please select one of security question.", preferredStyle: preferredStyle)
     // \u{f004}
     for question in questions {
@@ -65,12 +65,12 @@ class MainViewController: UIViewController {
     let attributedText1 = NSMutableAttributedString(string: "Exo2-Light")
     
     let range = NSRange(location: 0, length: attributedText.length)
-    attributedText.addAttribute(NSAttributedStringKey.kern, value: 1.5, range: range)
-    attributedText.addAttribute(NSAttributedStringKey.font, value: UIFont(name: "Exo2-Bold", size: 20.0)!, range: range)
+    attributedText.addAttribute(NSAttributedString.Key.kern, value: 1.5, range: range)
+    attributedText.addAttribute(NSAttributedString.Key.font, value: UIFont(name: "Exo2-Bold", size: 20.0)!, range: range)
     
     let range1 = NSRange(location: 0, length: attributedText1.length)
-    attributedText1.addAttribute(NSAttributedStringKey.kern, value: 1.5, range: range1)
-    attributedText1.addAttribute(NSAttributedStringKey.font, value: UIFont(name: "Exo2-Light", size: 20.0)!, range: range1)
+    attributedText1.addAttribute(NSAttributedString.Key.kern, value: 1.5, range: range1)
+    attributedText1.addAttribute(NSAttributedString.Key.font, value: UIFont(name: "Exo2-Light", size: 20.0)!, range: range1)
     
     alert.addAction(action)
     alert.addAction(action1)
@@ -86,8 +86,6 @@ class MainViewController: UIViewController {
     guard let label1 = action1.value(forKey: "__representer") else { return }
     let value2 = (label1 as AnyObject).value(forKey:"label") as? UILabel
     value2?.attributedText = attributedText1
-    
-    cancel.title
     
   }
   

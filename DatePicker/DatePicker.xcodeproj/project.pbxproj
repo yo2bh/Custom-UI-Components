@@ -358,9 +358,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/DatePicker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.particein;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learniosdevelopment.datepicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -372,9 +372,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "$(SRCROOT)/DatePicker/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.particein;
+				PRODUCT_BUNDLE_IDENTIFIER = com.learniosdevelopment.datepicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
